@@ -1,0 +1,27 @@
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  height: 430px;
+}
+.game-info{
+  align-self: flex-start;
+  margin-top: 89px;
+}
+.game-info ol{
+  list-style: none;
+}
+.game-info button{
+  font-size: 18px;
+  background-color: rgba(56, 90, 213, 0.9);
+  
+  border: 1px solid lightgreen;
+  border-top: 2px solid lightgreen;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  display: block;
+  width: 201px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+} 
