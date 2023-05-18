@@ -15,3 +15,11 @@
   font-weight: italic;
   /* background: rgba(60, 209, 235, 0.564); */
 }
+@media (max-width:525px){
+  .square {
+    height: 60px;
+    width: 60px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
