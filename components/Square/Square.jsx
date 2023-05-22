@@ -1,4 +1,3 @@
-
 import './Square.css'
 function Square({ winnerIndex, index, value, onSquareClick }) {
   let style = {};

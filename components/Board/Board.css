@@ -7,3 +7,9 @@
   display: flex;
   justify-content: center;
 }
+.winner{
+  color: greenyellow;
+}
+.draw{
+  color: rgb(0, 255, 238);
+}

@@ -9,9 +9,9 @@ function Board({ xIsNext, squares, onPlay, calculateWinner }) {
     onPlay(nextSquares);
   }
   const winnerLine = calculateWinner(squares);
-  let status; 
-  if (winnerLine) status = 'Winner: ' + winnerLine[0];
-  else if (!(squares.filter(item => item === null)).length) status = 'Draw!'
+  let status;
+  if (winnerLine) status = <>Winner: <span className='winner'>{winnerLine[0]}</span></>;
+  else if (!(squares.filter(item => item === null)).length) status = <span className='draw'>Draw!</span>;
   else status = 'Next player: ' + (xIsNext ? 'X' : 'O');
   return (
     <>
